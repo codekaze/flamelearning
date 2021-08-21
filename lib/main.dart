@@ -1,0 +1,47 @@
+import 'package:codekaze_free_ui_kit/main_setup.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import 'module/clean_ecommerce_ui_kit/ce_dashboard/view/ce_dashboard_view.dart';
+
+
+void main() async {
+  await MainSetup.setup();
+
+  runApp(GetMaterialApp(
+    debugShowCheckedModeBanner: false,
+    initialRoute: '/',
+    defaultTransition: Transition.fade,
+    theme: ThemeData(
+      textTheme: GoogleFonts.titilliumWebTextTheme(),
+      primaryColor: Colors.red[300],
+      primarySwatch: Colors.red,
+      primaryIconTheme: const IconThemeData.fallback().copyWith(
+        color: Colors.black,
+      ),
+      accentIconTheme: const IconThemeData.fallback().copyWith(
+        color: Colors.black,
+      ),
+      iconTheme: const IconThemeData.fallback().copyWith(
+        color: Colors.black,
+      ),
+      appBarTheme: AppBarTheme(
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+        centerTitle: true,
+      ),
+      primaryTextTheme: TextTheme(
+        headline6: TextStyle(
+          color: Colors.black,
+        ),
+      ),
+    ),
+    home: getHome(),
+  ));
+}
+
+Widget getHome() {
+  return CeDashboardView();
+  // return MainDashboardView();
+}
