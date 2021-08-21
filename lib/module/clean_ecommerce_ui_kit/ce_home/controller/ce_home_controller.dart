@@ -5,13 +5,34 @@ import 'package:get/get.dart';
 class CeHomeController extends GetxController {
   CeHomeView view;
   GlobalKey<ScaffoldState> key = GlobalKey();
-  
+
   List categories = [
     "All",
     "Top Sales",
     "Hot",
     "Women",
     "Men",
+  ];
+
+  List onlinePeoples = [
+    {
+      "name": "Michael Sparrow",
+      "avatar_url":
+          "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "status": "Online",
+    },
+    {
+      "name": "Kizaru Sniffman",
+      "avatar_url":
+          "https://images.pexels.com/photos/2078265/pexels-photo-2078265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "status": "Online",
+    },
+    {
+      "name": "Rika Tetsuya",
+      "avatar_url":
+          "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "status": "Offline",
+    },
   ];
 
   List products = [

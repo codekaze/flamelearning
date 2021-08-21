@@ -6,6 +6,7 @@ import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_order_succ
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_product_category_selector/view/ce_product_category_selector_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_product_detail/view/ce_product_detail_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/shared/widget/category_picker/category_picker.dart';
+import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/shared/widget/people_picker/people_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
@@ -111,6 +112,11 @@ class CeHomeView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    CePeoplePicker(
+                      id: "online_users",
+                      items: controller.onlinePeoples,
+                      photoField: "avatar_url",
+                    ),
                     Container(
                       height: 200.0,
                       decoration: BoxDecoration(
