@@ -5,7 +5,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'module/clean_ecommerce_ui_kit/ce_dashboard/view/ce_dashboard_view.dart';
 
-
 void main() async {
   await MainSetup.setup();
 
@@ -14,7 +13,7 @@ void main() async {
     initialRoute: '/',
     defaultTransition: Transition.fade,
     theme: ThemeData(
-      textTheme: GoogleFonts.titilliumWebTextTheme(),
+      textTheme: GoogleFonts.poppinsTextTheme(),
       primaryColor: Colors.red[300],
       primarySwatch: Colors.red,
       primaryIconTheme: const IconThemeData.fallback().copyWith(

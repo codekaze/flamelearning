@@ -51,7 +51,7 @@ class _CePeoplePickerState extends State<CePeoplePicker> {
               ),
             Container(
               height: 80.0,
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.symmetric(vertical: 10.0),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: widget.items.length,

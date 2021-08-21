@@ -33,6 +33,18 @@ class CeHomeController extends GetxController {
           "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "status": "Offline",
     },
+    {
+      "name": "James Barley",
+      "avatar_url":
+          "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "status": "Offline",
+    },
+    {
+      "name": "Nancy Quite",
+      "avatar_url":
+          "https://images.pexels.com/photos/4098157/pexels-photo-4098157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "status": "Offline",
+    },
   ];
 
   List products = [
