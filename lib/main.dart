@@ -1,9 +1,7 @@
-import 'package:codekaze_free_ui_kit/main_setup.dart';
+import 'package:codekaze_free_ui_kit/core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'module/clean_ecommerce_ui_kit/ce_dashboard/view/ce_dashboard_view.dart';
 
 void main() async {
   await MainSetup.setup();
@@ -41,6 +39,6 @@ void main() async {
 }
 
 Widget getHome() {
-  return CeDashboardView();
+  return DashboardView();
   // return MainDashboardView();
 }
