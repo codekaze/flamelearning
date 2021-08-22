@@ -29,19 +29,19 @@ class AccountController extends GetxController {
 
   List<Map<String, dynamic>> card2 = [
     {
-      'name': 'Marks',
+      'name': 'News',
       'subname': '',
       'color': Color(0xff546CF6),
       'icon': 'assets/icon/icon_compas.png',
     },
     {
-      'name': 'Debts',
+      'name': 'Teachers',
       'subname': '',
       'color': Color(0xff546CF6),
       'icon': 'assets/icon/icon_peoples.png',
     },
     {
-      'name': 'History',
+      'name': 'Rools',
       'subname': '',
       'color': Color(0xff546CF6),
       'icon': 'assets/icon/icon_shield.png',
