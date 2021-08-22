@@ -1,4 +1,6 @@
 import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:codekaze_free_ui_kit/module/chat/view/chat_view.dart';
+import 'package:codekaze_free_ui_kit/module/notification/view/notification_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
@@ -95,9 +97,22 @@ class HomeView extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Icon(
-                            FlutterIcons.bell_mco,
-                            size: 20.0,
+                          InkWell(
+                            onTap: () => Get.to(ChatView()),
+                            child: Icon(
+                              FlutterIcons.chat_mdi,
+                              size: 20.0,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10.0,
+                          ),
+                          InkWell(
+                            onTap: () => Get.to(NotificationView()),
+                            child: Icon(
+                              FlutterIcons.bell_mco,
+                              size: 20.0,
+                            ),
                           ),
                         ],
                       ),
