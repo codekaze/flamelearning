@@ -1,4 +1,4 @@
-package com.codekaze.codekaze_free_ui_kit
+package com.codekaze.flamelearning
 
 import io.flutter.embedding.android.FlutterActivity
 
