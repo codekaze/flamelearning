@@ -1,6 +1,4 @@
 import 'package:codekaze_free_ui_kit/core.dart';
-import 'package:codekaze_free_ui_kit/module/chat/view/chat_view.dart';
-import 'package:codekaze_free_ui_kit/module/notification/view/notification_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 

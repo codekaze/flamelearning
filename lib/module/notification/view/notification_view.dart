@@ -1,5 +1,5 @@
+import 'package:codekaze_free_ui_kit/core.dart';
 import 'package:flutter/material.dart';
-import 'package:codekaze_free_ui_kit/module/notification/controller/notification_controller.dart';
 
 import 'package:get/get.dart';
 
