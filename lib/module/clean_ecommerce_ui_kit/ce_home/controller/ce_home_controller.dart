@@ -8,10 +8,11 @@ class CeHomeController extends GetxController {
 
   List categories = [
     "All",
-    "Top Sales",
-    "Hot",
-    "Women",
-    "Men",
+    "UI/UX",
+    "Illustration",
+    "3D Animation",
+    "Programming",
+    "AI",
   ];
 
   List onlinePeoples = [
@@ -45,6 +46,65 @@ class CeHomeController extends GetxController {
           "https://images.pexels.com/photos/4098157/pexels-photo-4098157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "status": "Offline",
     },
+  ];
+
+  List courses = [
+    {
+      "title": "Step design sprint for beginner",
+      "image_url":
+          "https://images.unsplash.com/photo-1541560052-3744e48ab80b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1vYmlsZSUyMGhhbmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "duration": "5h 21m",
+      "main_tags": "Free Course",
+      "tags": [
+        {
+          "label": "6 Lessons",
+          "color": Colors.blue[400],
+        },
+        {
+          "label": "Free",
+          "color": Colors.blue[900],
+        },
+        {
+          "label": "UI/UX",
+          "color": Colors.purple[500],
+        }
+      ],
+      "author": {
+        "name": "James Barley",
+        "avatar_url":
+            "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "status": "Offline",
+        "job_name": "Product Designer",
+      },
+    },
+    {
+      "title": "Flutter Basic",
+      "image_url":
+          "https://images.unsplash.com/photo-1541560052-3744e48ab80b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1vYmlsZSUyMGhhbmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "duration": "2h 11m",
+      "main_tags": "Free Course",
+      "tags": [
+        {
+          "label": "10 Lessons",
+          "color": Colors.blue[400],
+        },
+        {
+          "label": "Free",
+          "color": Colors.blue[900],
+        },
+        {
+          "label": "Flutter",
+          "color": Colors.purple[500],
+        }
+      ],
+      "author": {
+        "name": "Rika Tetsuya",
+        "avatar_url":
+            "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "status": "Offline",
+        "job_name": "Mobile Developer",
+      },
+    }
   ];
 
   List products = [

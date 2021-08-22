@@ -30,22 +30,25 @@ class _CeCategoryPickerState extends State<CeCategoryPicker> {
 
   @override
   Widget build(BuildContext context) {
+    print("selectedIndex:$selectedIndex");
     return InkWell(
       child: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              "${widget.label}:",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
+            if (widget.label != null)
+              Text(
+                "${widget.label}:",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
+            if (widget.label != null)
+              SizedBox(
+                height: 10.0,
+              ),
             Container(
-              height: 40.0,
+              height: 36.0,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: widget.items.length,
@@ -64,16 +67,16 @@ class _CeCategoryPickerState extends State<CeCategoryPicker> {
                       margin: EdgeInsets.only(right: 8.0),
                       decoration: BoxDecoration(
                         color: selectedIndex == index
-                            ? Colors.grey[600]
+                            ? Colors.red[300]
                             : Colors.grey[200],
                         borderRadius: BorderRadius.all(
-                          Radius.circular(30.0),
+                          Radius.circular(16.0),
                         ),
                       ),
                       child: Padding(
-                        padding: const EdgeInsets.only(
-                          left: 20.0,
-                          right: 20.0,
+                        padding: EdgeInsets.only(
+                          left: 16.0,
+                          right: 16.0,
                         ),
                         child: Center(
                           child: Text(
@@ -81,6 +84,7 @@ class _CeCategoryPickerState extends State<CeCategoryPicker> {
                             style: TextStyle(
                               color:
                                   selectedIndex == index ? Colors.white : null,
+                              fontSize: 11.0,
                             ),
                           ),
                         ),

@@ -67,24 +67,55 @@ class _CePeoplePickerState extends State<CePeoplePicker> {
                       setState(() {});
                     },
                     child: Container(
-                      margin: EdgeInsets.only(right: 6.0),
-                      child: CircleAvatar(
-                        backgroundColor: item["status"] == "Online"
-                            ? Colors.green
-                            : Colors.grey[300],
-                        radius: 32.0,
-                        child: CircleAvatar(
-                          radius: 28.0,
-                          backgroundColor: Colors.white,
-                          child: CircleAvatar(
-                            radius: 26.0,
-                            backgroundImage: NetworkImage(
-                              item["avatar_url"],
+                      width: 60.0,
+                      padding: EdgeInsets.all(3.0),
+                      margin: EdgeInsets.only(
+                        right: 8.0,
+                        left: 2.0,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.all(Radius.circular(20.0)),
+                      ),
+                      child: Container(
+                        padding: const EdgeInsets.all(2.0),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.all(Radius.circular(20.0)),
+                        ),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: NetworkImage(
+                                item["avatar_url"],
+                              ),
                             ),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(20.0)),
                           ),
                         ),
                       ),
                     ),
+                    // child: Container(
+                    //   margin: EdgeInsets.only(right: 6.0),
+                    //   child: CircleAvatar(
+                    //     backgroundColor: item["status"] == "Online"
+                    //         ? Colors.green
+                    //         : Colors.grey[300],
+                    //     radius: 32.0,
+                    //     child: CircleAvatar(
+                    //       radius: 28.0,
+                    //       backgroundColor: Colors.white,
+                    //       child: CircleAvatar(
+                    //         radius: 26.0,
+                    //         backgroundImage: NetworkImage(
+                    //           item["avatar_url"],
+                    //         ),
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   );
                 },
               ),

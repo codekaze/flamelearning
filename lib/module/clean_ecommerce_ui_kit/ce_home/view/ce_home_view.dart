@@ -1,12 +1,15 @@
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_cart_empty/view/ce_cart_empty_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_home/controller/ce_home_controller.dart';
+import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_home/view/select_list.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_intro/view/ce_intro_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_login/view/ce_login_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_order_success/view/ce_order_success_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_product_category_selector/view/ce_product_category_selector_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/ce_product_detail/view/ce_product_detail_view.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/shared/widget/category_picker/category_picker.dart';
+import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/shared/widget/image_slider/image_slider.dart';
 import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/shared/widget/people_picker/people_picker.dart';
+import 'package:codekaze_free_ui_kit/module/clean_ecommerce_ui_kit/shared/widget/title_text/title_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
@@ -173,29 +176,40 @@ class CeHomeView extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(
+                      height: 10.0,
+                    ),
                     CePeoplePicker(
                       id: "online_users",
                       items: controller.onlinePeoples,
                       photoField: "avatar_url",
                     ),
-                    Container(
-                      height: 200.0,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: NetworkImage(
-                            "https://i.ibb.co/T4wFLpN/1248.jpg",
-                          ),
-                          fit: BoxFit.fill,
-                        ),
-                        borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                      ),
-                    ),
                     SizedBox(
-                      height: 24.0,
+                      height: 10.0,
+                    ),
+                    TitleText(
+                      boldText: "Upcoming",
+                      text: "course this week",
                     ),
                     CeCategoryPicker(
                       id: "category",
-                      label: "Category",
+                      items: controller.categories,
+                    ),
+                    SizedBox(
+                      height: 10.0,
+                    ),
+                    ImageSlider(
+                      items: controller.courses,
+                    ),
+                    SizedBox(
+                      height: 16.0,
+                    ),
+                    TitleText(
+                      boldText: "Course",
+                      text: "Ebook",
+                    ),
+                    CeCategoryPicker(
+                      id: "category",
                       items: controller.categories,
                     ),
                     SizedBox(
