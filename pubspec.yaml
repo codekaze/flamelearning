@@ -35,6 +35,7 @@ dependencies:
   get_storage: ^2.0.2
   badges: ^1.2.0
   intl: ^0.17.0
+  date_picker_timeline: ^1.2.3
 
   flutter_slidable: ^0.6.0
   introduction_screen: ^2.1.0
