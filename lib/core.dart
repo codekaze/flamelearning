@@ -32,5 +32,4 @@ export 'package:codekaze_free_ui_kit/module/shared/widget/payment_picker/payment
 export 'package:codekaze_free_ui_kit/module/shared/widget/people_picker/people_picker.dart';
 export 'package:codekaze_free_ui_kit/module/shared/widget/textfield/textfield.dart';
 export 'package:codekaze_free_ui_kit/module/shared/widget/title_text/title_text.dart';
-
 export 'package:get/get.dart';

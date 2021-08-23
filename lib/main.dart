@@ -39,6 +39,10 @@ void main() async {
 }
 
 Widget getHome() {
+<<<<<<< HEAD
   return ChatView();
+=======
+  return DashboardView();
+>>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
   // return MainDashboardView();
 }
