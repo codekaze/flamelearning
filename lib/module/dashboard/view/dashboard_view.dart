@@ -24,34 +24,70 @@ class DashboardView extends StatelessWidget {
   Widget build(BuildContext context) {
     controller.view = this;
 
-    return GetBuilder <DashboardController>(
+    return GetBuilder<DashboardController>(
       builder: (_) {
         return Scaffold(
           key: controller.key,
-          bottomNavigationBar: FancyBottomNavigation(
-            inactiveIconColor: Colors.grey[400],
-            tabs: [
-              TabData(
-                iconData: FlutterIcons.home_ant,
-                title: "Home",
-              ),
-              TabData(
-                iconData: FlutterIcons.calendar_account_mco,
-                title: "Course Calendar",
-              ),
-              TabData(
-                iconData: FlutterIcons.book_mco,
-                title: "Ebook",
-              ),
-              TabData(
-                iconData: FlutterIcons.user_ant,
-                title: "Me",
-              ),
-            ],
-            onTabChangedListener: (selectedIndex) {
+          // bottomNavigationBar: FancyBottomNavigation(
+          //   inactiveIconColor: Colors.grey[400],
+          //   tabs: [
+          //     TabData(
+          //       iconData: FlutterIcons.home_ant,
+          //       title: "Home",
+          //     ),
+          //     TabData(
+          //       iconData: FlutterIcons.calendar_account_mco,
+          //       title: "Course Calendar",
+          //     ),
+          //     TabData(
+          //       iconData: FlutterIcons.book_mco,
+          //       title: "Ebook",
+          //     ),
+          //     TabData(
+          //       iconData: FlutterIcons.user_ant,
+          //       title: "Me",
+          //     ),
+          //   ],
+          //   onTabChangedListener: (selectedIndex) {
+          //     controller.selectedTabIndex = selectedIndex;
+          //     controller.update();
+          //   },
+          // ),
+          bottomNavigationBar: BottomNavigationBar(
+            onTap: (selectedIndex) {
               controller.selectedTabIndex = selectedIndex;
               controller.update();
             },
+            currentIndex: controller.selectedTabIndex,
+            selectedIconTheme: IconThemeData(
+              color: Colors.red[300],
+            ),
+            selectedItemColor: Colors.red[300],
+            unselectedIconTheme: IconThemeData(
+              color: Colors.grey[300],
+            ),
+            unselectedItemColor: Colors.grey[300],
+            selectedLabelStyle: TextStyle(
+              fontSize: 10.0,
+            ),
+            items: [
+              BottomNavigationBarItem(
+                label: "Home",
+                icon: Icon(FlutterIcons.home_ant),
+              ),
+              BottomNavigationBarItem(
+                label: "Course Calendar",
+                icon: Icon(FlutterIcons.calendar_account_mco),
+              ),
+              BottomNavigationBarItem(
+                label: "Ebook",
+                icon: Icon(FlutterIcons.pdf_box_mco),
+              ),
+              BottomNavigationBarItem(
+                label: "Me",
+                icon: Icon(FlutterIcons.user_ant),
+              ),
+            ],
           ),
           body: getMainView(),
         );
