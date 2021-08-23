@@ -1,4 +1,5 @@
 import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:codekaze_free_ui_kit/module/course_calendar/widget/date_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:codekaze_free_ui_kit/module/course_calendar/controller/course_calendar_controller.dart';
 
@@ -98,7 +99,7 @@ class CourseCalendarView extends StatelessWidget {
                   ),
                 ),
               ),
-              SelectList(
+              DateSelector(
                 items: [
                   {
                     "course_name": "English",

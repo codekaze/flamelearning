@@ -17,7 +17,6 @@ export 'package:codekaze_free_ui_kit/module/dashboard/controller/dashboard_contr
 export 'package:codekaze_free_ui_kit/module/dashboard/view/dashboard_view.dart';
 export 'package:codekaze_free_ui_kit/module/home/controller/home_controller.dart';
 export 'package:codekaze_free_ui_kit/module/home/view/home_view.dart';
-export 'package:codekaze_free_ui_kit/module/home/view/select_list.dart';
 export 'package:codekaze_free_ui_kit/module/login/controller/login_controller.dart';
 export 'package:codekaze_free_ui_kit/module/login/view/login_view.dart';
 export 'package:codekaze_free_ui_kit/module/notification/controller/notification_controller.dart';

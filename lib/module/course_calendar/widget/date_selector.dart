@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:date_picker_timeline/date_picker_timeline.dart';
 
-class SelectList extends StatefulWidget {
+class DateSelector extends StatefulWidget {
   final List items;
-  SelectList({
+  DateSelector({
     this.items,
   });
 
   @override
-  _SelectListState createState() => _SelectListState();
+  _DateSelectorState createState() => _DateSelectorState();
 }
 
-class _SelectListState extends State<SelectList> {
+class _DateSelectorState extends State<DateSelector> {
   int selectedIndex = -1;
 
   final DatePickerController _controller = DatePickerController();
@@ -21,7 +21,7 @@ class _SelectListState extends State<SelectList> {
     return Padding(
       padding: const EdgeInsets.only(top: 100),
       child: Container(
-        height: 500,
+        height: 504,
         width: 500,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -30,22 +30,19 @@ class _SelectListState extends State<SelectList> {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.all(10),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Container(
-                    child: DatePicker(
-                      DateTime.now(),
-                      width: 60,
-                      height: 90,
-                      controller: _controller,
-                      initialSelectedDate: DateTime.now(),
-                      selectionColor: Colors.red,
-                      selectedTextColor: Colors.white,
-                    ),
-                  ),
-                ],
+              padding: EdgeInsets.all(10.0),
+              child: DatePicker(
+                DateTime.now(),
+                width: 60,
+                height: 90,
+                controller: _controller,
+                initialSelectedDate: DateTime.now(),
+                selectionColor: Colors.red,
+                selectedTextColor: Colors.white,
+                dateTextStyle: TextStyle(),
+                dayTextStyle: TextStyle(
+                  fontSize: 10.0,
+                ),
               ),
             ),
             Divider(
