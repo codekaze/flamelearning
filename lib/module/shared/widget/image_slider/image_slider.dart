@@ -4,9 +4,13 @@ import 'package:get/get.dart';
 
 class ImageSlider extends StatefulWidget {
   final List items;
+  final double height;
+  final double width;
 
   ImageSlider({
     @required this.items,
+    this.width,
+    this.height,
   });
 
   @override
@@ -20,7 +24,7 @@ class _ImageSliderState extends State<ImageSlider> {
   Widget build(BuildContext context) {
     return Container(
       width: Get.width,
-      height: 250.0,
+      height: widget.height ?? 250.0,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         controller: scrollController,
@@ -31,9 +35,9 @@ class _ImageSliderState extends State<ImageSlider> {
           return Stack(
             children: [
               Container(
-                height: 250.0,
+                height: widget.height ?? 250.0,
                 margin: EdgeInsets.only(right: 10.0),
-                width: Get.width / 1.5,
+                width: widget.width ?? (Get.width / 1.5),
                 decoration: BoxDecoration(
                   color: Colors.black,
                   image: DecorationImage(

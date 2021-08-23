@@ -1,4 +1,5 @@
 import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:codekaze_free_ui_kit/module/shared/widget/book_slider/book_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
@@ -147,9 +148,8 @@ class HomeView extends StatelessWidget {
                       boldText: "Course",
                       text: "Ebook",
                     ),
-                    CategoryPicker(
-                      id: "category",
-                      items: controller.categories,
+                    BookSlider(
+                      items: controller.ebooks,
                     ),
                     SizedBox(
                       height: 24.0,

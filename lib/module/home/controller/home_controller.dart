@@ -107,6 +107,57 @@ class HomeController extends GetxController {
     }
   ];
 
+  List ebooks = [
+    {
+      "title": "Practical Flutter",
+      "image_url": "https://i.ibb.co/xGjJnmc/pdf.jpg",
+      "main_tags": "Free Ebook",
+      "tags": [
+        {
+          "label": "Dart",
+          "color": Colors.blue[400],
+        },
+        {
+          "label": "Free",
+          "color": Colors.blue[900],
+        },
+        {
+          "label": "Flutter",
+          "color": Colors.purple[500],
+        }
+      ],
+      "author": {
+        "name": "Frank Zammeti",
+        "avatar_url":
+            "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      },
+    },
+    {
+      "title": "Flutter Cookbook",
+      "image_url": "https://i.ibb.co/P4GWqsk/517g-Skn-T9-HS-SY445-SX342-QL70-ML2.jpg",
+      "main_tags": "Free Ebook",
+      "tags": [
+        {
+          "label": "Dart",
+          "color": Colors.blue[400],
+        },
+        {
+          "label": "Free",
+          "color": Colors.blue[900],
+        },
+        {
+          "label": "Flutter",
+          "color": Colors.purple[500],
+        }
+      ],
+      "author": {
+        "name": "Simone Alessandria",
+        "avatar_url":
+            "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      },
+    },
+  ];
+
   List products = [
     {
       "product_name": "Dan's Jacket",
