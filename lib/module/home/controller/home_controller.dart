@@ -107,8 +107,6 @@ class HomeController extends GetxController {
     }
   ];
 
-<<<<<<< HEAD
-=======
   List ebooks = [
     {
       "title": "Practical Flutter",
@@ -160,7 +158,6 @@ class HomeController extends GetxController {
     },
   ];
 
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
   List products = [
     {
       "product_name": "Dan's Jacket",

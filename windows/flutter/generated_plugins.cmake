@@ -4,7 +4,7 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   desktop_window
-  file_chooser
+  file_selector_windows
   maps_launcher
   url_launcher_windows
 )

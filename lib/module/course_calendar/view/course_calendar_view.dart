@@ -1,11 +1,8 @@
 import 'package:codekaze_free_ui_kit/core.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-=======
 import 'package:codekaze_free_ui_kit/module/course_calendar/controller/course_calendar_controller.dart';
 
 import 'package:intl/intl.dart';
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
 
 import 'package:get/get.dart';
 

@@ -1,10 +1,5 @@
 import 'package:codekaze_free_ui_kit/core.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-
-import 'package:get/get.dart';
-
-=======
 import 'package:get/get.dart';
 
 // My Widget :
@@ -24,7 +19,6 @@ import '../widgets/avatar.dart';
 // Icon appbar profil
 import '../widgets/icon_appbar.dart';
 
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
 class AccountView extends StatelessWidget {
   final controller = Get.put(AccountController());
 
@@ -32,13 +26,6 @@ class AccountView extends StatelessWidget {
   Widget build(BuildContext context) {
     controller.view = this;
 
-<<<<<<< HEAD
-    return GetBuilder <AccountController>(
-      builder: (_) {
-        return Scaffold(
-          appBar: AppBar(
-            title: Text("My Account"),
-=======
     return GetBuilder<AccountController>(
       builder: (_) {
         return Scaffold(
@@ -97,17 +84,13 @@ class AccountView extends StatelessWidget {
                 ],
               ),
             ),
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
           ),
         );
       },
     );
   }
 }
-<<<<<<< HEAD
-=======
 
 // Card show
 
 
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518

@@ -1,15 +1,10 @@
 import 'package:codekaze_free_ui_kit/core.dart';
-<<<<<<< HEAD
-=======
 import 'package:flutter/material.dart';
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
 import 'package:get/get.dart';
 
 class AccountController extends GetxController {
   AccountView view;
 
-<<<<<<< HEAD
-=======
   final Color colorgrey = Color(0xff3C3C43).withOpacity(0.6);
   List<Map<String, dynamic>> card1 = [
     {
@@ -53,7 +48,6 @@ class AccountController extends GetxController {
     },
   ];
 
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
   @override
   void onInit() {
     super.onInit();

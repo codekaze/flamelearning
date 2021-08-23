@@ -4,11 +4,6 @@ import 'package:get/get.dart';
 
 class ImageSlider extends StatefulWidget {
   final List items;
-<<<<<<< HEAD
-
-  ImageSlider({
-    @required this.items,
-=======
   final double height;
   final double width;
 
@@ -16,7 +11,6 @@ class ImageSlider extends StatefulWidget {
     @required this.items,
     this.width,
     this.height,
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
   });
 
   @override
@@ -30,11 +24,7 @@ class _ImageSliderState extends State<ImageSlider> {
   Widget build(BuildContext context) {
     return Container(
       width: Get.width,
-<<<<<<< HEAD
-      height: 250.0,
-=======
       height: widget.height ?? 250.0,
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         controller: scrollController,
@@ -45,15 +35,9 @@ class _ImageSliderState extends State<ImageSlider> {
           return Stack(
             children: [
               Container(
-<<<<<<< HEAD
-                height: 250.0,
-                margin: EdgeInsets.only(right: 10.0),
-                width: Get.width / 1.5,
-=======
                 height: widget.height ?? 250.0,
                 margin: EdgeInsets.only(right: 10.0),
                 width: widget.width ?? (Get.width / 1.5),
->>>>>>> 02d5792e0dddbb211294ba26fb158c9bc4c8e518
                 decoration: BoxDecoration(
                   color: Colors.black,
                   image: DecorationImage(
