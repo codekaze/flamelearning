@@ -39,7 +39,7 @@ class FirstSlide extends StatelessWidget {
                   child: Container(
                     margin: EdgeInsets.only(top: 8, bottom: 8, right: 16),
                     height: Get.height,
-                    width: Get.width / 3,
+                    width: Get.width / 2,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
                       image: DecorationImage(

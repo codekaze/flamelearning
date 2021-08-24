@@ -1,4 +1,5 @@
 import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:codekaze_free_ui_kit/module/book_detail/view/pdf_view.dart';
 import 'package:codekaze_free_ui_kit/module/book_detail/widgets/similar_slide.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -78,7 +79,9 @@ class BookDetailView extends StatelessWidget {
                     height: 16,
                   ),
                   Button(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.to(() => PDFView());
+                    },
                     label: 'Read',
                   ),
                   SizedBox(

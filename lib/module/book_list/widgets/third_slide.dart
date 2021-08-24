@@ -47,7 +47,7 @@ class ThirdSlide extends StatelessWidget {
                     Container(
                       margin: EdgeInsets.only(top: 8, right: 16),
                       height: Get.height / 3,
-                      width: Get.width / 3,
+                      width: Get.width / 2,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
                         image: DecorationImage(
