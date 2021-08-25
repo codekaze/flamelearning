@@ -19,12 +19,12 @@ class ChatImage extends StatelessWidget {
             isMe ? MainAxisAlignment.end : MainAxisAlignment.start,
         children: [
           Container(
-            width: Get.width / 1.8,
+            width: Get.width / 1.9,
             height: 200,
-            margin: EdgeInsets.all(10),
+            margin: EdgeInsets.only(top: 10),
             decoration: BoxDecoration(
               image: DecorationImage(
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
                 image: NetworkImage(images[0]),
               ),
               borderRadius: BorderRadius.only(
