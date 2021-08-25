@@ -37,7 +37,7 @@ class ChatDetailView extends StatelessWidget {
           body: Stack(
             children: <Widget>[
               Container(
-                margin: EdgeInsets.only(bottom: 50, right: 10),
+                padding: EdgeInsets.all(12.0),
                 child: ListView(
                   scrollDirection: Axis.vertical,
                   shrinkWrap: true,
@@ -45,7 +45,6 @@ class ChatDetailView extends StatelessWidget {
                     ...List.generate(controller.chatList.length, (index) {
                       var item = controller.chatList[index];
                       return Container(
-                        margin: EdgeInsets.all(12.0),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
@@ -66,21 +65,28 @@ class ChatDetailView extends StatelessWidget {
                                       child: Container(
                                         padding: EdgeInsets.all(16),
                                         child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
                                             if (item["message"].isNotEmpty)
                                               Container(
+                                                margin: EdgeInsets.only(
+                                                    bottom: 10.0),
                                                 decoration: BoxDecoration(
-                                                  borderRadius: BorderRadius.only(
-                                                    topLeft: Radius.circular(20),
+                                                  borderRadius:
+                                                      BorderRadius.only(
+                                                    topLeft:
+                                                        Radius.circular(20),
                                                     bottomRight:
                                                         Radius.circular(20),
-                                                    topRight: Radius.circular(20),
+                                                    topRight:
+                                                        Radius.circular(20),
                                                   ),
                                                   color: Colors.grey[300],
                                                 ),
                                                 padding: EdgeInsets.all(16),
-                                                child: Text("${item["message"]}"),
+                                                child:
+                                                    Text("${item["message"]}"),
                                               ),
                                             ChatImage(
                                               images: item["images"],
@@ -109,6 +115,8 @@ class ChatDetailView extends StatelessWidget {
                                           children: [
                                             if (item["message"].isNotEmpty)
                                               Container(
+                                                margin: EdgeInsets.only(
+                                                    bottom: 10.0),
                                                 width: Get.width,
                                                 decoration: BoxDecoration(
                                                   borderRadius:
