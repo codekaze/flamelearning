@@ -9,7 +9,7 @@ https://drive.google.com/file/d/1kPe3pi9Vmi3tDIxXy6fCp9dI53wrwot5/view?usp=shari
 Codekaze\
 codekaze.id@gmail.com
 
-[![linkedin](https://icons.iconarchive.com/icons/limav/flat-gradient-social/32/Linkedin-icon.png)](https://www.linkedin.com/in/codekaze-id-35541714b/)
+[![linkedin](https://icons.iconarchive.com/icons/limav/flat-gradient-social/16/Linkedin-icon.png)](https://www.linkedin.com/in/codekaze-id-35541714b/)
 
 
 www.codekaze.com
