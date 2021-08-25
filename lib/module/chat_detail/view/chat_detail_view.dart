@@ -37,7 +37,12 @@ class ChatDetailView extends StatelessWidget {
           body: Stack(
             children: <Widget>[
               Container(
-                padding: EdgeInsets.all(12.0),
+                padding: EdgeInsets.only(
+                  left: 12.0,
+                  right: 12.0,
+                  top: 12.0,
+                  bottom: 40.0,
+                ),
                 child: ListView(
                   scrollDirection: Axis.vertical,
                   shrinkWrap: true,
