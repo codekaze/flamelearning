@@ -20,6 +20,14 @@ E-mail : febriannisarisa21@gmail.com
 Telegram : @febriannisa1
 LinkedIn : Febri Annisa
 
+Danu Septian
+email: danuseptian1996@gmail.com
+linkedin: Danu Septian
+twitter: -
+facebook: -
+telegram: @Danuseptian96
+instagram: @danuseptian
+
 Jaisy Al Huda 
 email:jalzae@gmail.com
 linkedin: Jaisy Al Huda 
