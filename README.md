@@ -6,8 +6,6 @@ https://drive.google.com/file/d/1kPe3pi9Vmi3tDIxXy6fCp9dI53wrwot5/view?usp=shari
 
 #### Screenshots
 [![screenshot](https://github.com/codekaze/flamelearning/blob/master/ss/preview.png)](#)
- 
-[![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=50)]
 
 #### Contributor:
 
