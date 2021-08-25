@@ -21,7 +21,7 @@ class NotificationView extends StatelessWidget {
             child: Column(
               children: [
                 Container(
-                  padding: EdgeInsets.only(left: 10, right: 10, top: 20),
+                  padding: EdgeInsets.only(left: 16, right: 16, top: 20),
                   child: Column(
                     children: <Widget>[
                       Row(
@@ -29,13 +29,10 @@ class NotificationView extends StatelessWidget {
                         children: <Widget>[
                           Text(
                             'Show all',
-                            style: GoogleFonts.lato(
-                                textStyle: TextStyle(color: Colors.grey)),
                           ),
                           Text(
                             'Mark all as read',
-                            style: GoogleFonts.lato(
-                                textStyle: TextStyle(color: Colors.grey)),
+                            style: TextStyle(color: Colors.grey),
                           ),
                         ],
                       ),
@@ -43,50 +40,54 @@ class NotificationView extends StatelessWidget {
                         height: 15,
                       ),
                       NotificationItem(
-                          title: 'Flutter Basic',
-                          description:
-                              'Yeay, Congratulations! You have successfully made a payment to access this class. This class will be active forever',
-                          image:
-                              'https://img.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg?size=626&ext=jpg',
-                          color: Colors.redAccent),
+                        title: 'Flutter Basic',
+                        description:
+                            'Yeay, Congratulations! You have successfully made a payment to access this class. This class will be active forever',
+                        image:
+                            'https://img.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg?size=626&ext=jpg',
+                        color: Colors.redAccent,
+                      ),
                       SizedBox(height: 15),
                       NotificationItem(
-                          title: 'New Message',
-                          description:
-                              'Nathan assigned the task to you 12:45 AM',
-                          image:
-                              'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-                          color: Colors.blueAccent),
+                        title: 'New Message',
+                        description: 'Nathan assigned the task to you 12:45 AM',
+                        image:
+                            'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                        color: Colors.blueAccent,
+                      ),
                       SizedBox(
                         height: 15,
                       ),
                       NotificationItem(
-                          title: 'New Message',
-                          description:
-                              'Alexandra assigned the task to you \n04/12/2020, 12:45 AM',
-                          image:
-                              'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-                          color: Colors.yellow),
+                        title: 'New Message',
+                        description:
+                            'Alexandra assigned the task to you \n04/12/2020, 12:45 AM',
+                        image:
+                            'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                        color: Colors.yellow,
+                      ),
                       SizedBox(
                         height: 15,
                       ),
                       NotificationItem(
-                          title: 'New Message',
-                          description:
-                              'Alexandra assigned the task to you \n04/12/2020, 12:45 AM',
-                          image:
-                              'https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-                          color: Colors.green),
+                        title: 'New Message',
+                        description:
+                            'Alexandra assigned the task to you \n04/12/2020, 12:45 AM',
+                        image:
+                            'https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                        color: Colors.green,
+                      ),
                       SizedBox(
                         height: 15,
                       ),
                       NotificationItem(
-                          title: 'Design with Figma',
-                          description:
-                              'Yeay, Congratulations! You have successfully made a payment to access this class. This class will be active forever',
-                          image:
-                              'https://blogthinkbig.com/wp-content/uploads/sites/4/2017/10/Desktop-Computer-Vector.jpg?fit=800%2C493',
-                          color: Colors.orange),
+                        title: 'Design with Figma',
+                        description:
+                            'Yeay, Congratulations! You have successfully made a payment to access this class. This class will be active forever',
+                        image:
+                            'https://blogthinkbig.com/wp-content/uploads/sites/4/2017/10/Desktop-Computer-Vector.jpg?fit=800%2C493',
+                        color: Colors.orange,
+                      ),
                       SizedBox(
                         height: 15,
                       ),
