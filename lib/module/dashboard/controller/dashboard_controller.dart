@@ -20,7 +20,7 @@ class DashboardController extends GetxController {
     super.onReady();
 
     if (Platform.isWindows) {
-      Future.delayed(Duration(milliseconds: 500), () async {
+      Future.delayed(Duration(milliseconds: 1000), () async {
         await DesktopWindow.setWindowSize(Size(420, 860));
         update();
       });
