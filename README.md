@@ -2,6 +2,11 @@
 
 #### Contributor:
 
+Codekaze
+codekaze.id@gmail.com
+https://www.linkedin.com/in/codekaze-id-35541714b/
+www.codekaze.com
+
 Jaisy Al Huda 
 email:jalzae@gmail.com
 linkedin: Jaisy Al Huda 
@@ -25,3 +30,4 @@ twitter: @hafiz_hudzaifi
 facebook: hafiz hudzaifi
 telegram: @hafiz_hudzaifi
 instagram: @hafiz_hudzaifi
+
