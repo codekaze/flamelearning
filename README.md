@@ -8,7 +8,17 @@ https://drive.google.com/file/d/1kPe3pi9Vmi3tDIxXy6fCp9dI53wrwot5/view?usp=shari
 
 | Command | Description | Social Media | Website |
 | --- | --- | --- | --- |
-| Codekaze | codekaze.id@gmail.com | [![email](https://icons.iconarchive.com/icons/wwalczyszyn/android-style-honeycomb/24/GMail-icon.png)](mailto:codekaze.id@gmail.com) [![linkedin](https://icons.iconarchive.com/icons/limav/flat-gradient-social/24/Linkedin-icon.png)](https://www.linkedin.com/in/codekaze-id-35541714b/) | www.codekaze.com |
+| Codekaze | codekaze.id@gmail.com | 
+[![email](https://icons.iconarchive.com/icons/wwalczyszyn/android-style-honeycomb/24/GMail-icon.png)](mailto:codekaze.id@gmail.com) 
+
+[![linkedin](https://icons.iconarchive.com/icons/limav/flat-gradient-social/24/Linkedin-icon.png)](https://www.linkedin.com/in/codekaze-id-35541714b/)
+
+[![telegram](https://icons.iconarchive.com/icons/bokehlicia/captiva/24/web-telegram-icon.png)](https://t.me/codekaze) 
+
+
+| www.codekaze.com |
+
+| Febri Annisa | febriannisarisa21@gmail.com | [![email](https://icons.iconarchive.com/icons/wwalczyszyn/android-style-honeycomb/24/GMail-icon.png)](mailto:codekaze.id@gmail.com) [![linkedin](https://icons.iconarchive.com/icons/limav/flat-gradient-social/24/Linkedin-icon.png)](https://www.linkedin.com/in/codekaze-id-35541714b/) | www.codekaze.com |
 
 
 
