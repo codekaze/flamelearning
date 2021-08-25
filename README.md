@@ -4,6 +4,9 @@
 Android:\
 https://drive.google.com/file/d/1kPe3pi9Vmi3tDIxXy6fCp9dI53wrwot5/view?usp=sharing
 
+#### Screenshots
+![](https://github.com/codekaze/flamelearning/blob/master/ss/Screenshot_20210825-141503.png?raw=true | width=100)
+
 #### Contributor:
 
 | Command | Description | Social Media | Website |
