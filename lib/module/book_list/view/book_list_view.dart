@@ -1,8 +1,8 @@
-import 'package:codekaze_free_ui_kit/core.dart';
-import 'package:codekaze_free_ui_kit/module/book_list/widgets/categories.dart';
-import 'package:codekaze_free_ui_kit/module/book_list/widgets/first_slide.dart';
-import 'package:codekaze_free_ui_kit/module/book_list/widgets/second_slide.dart';
-import 'package:codekaze_free_ui_kit/module/book_list/widgets/third_slide.dart';
+import 'package:flamelearning_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/module/book_list/widgets/categories.dart';
+import 'package:flamelearning_ui_kit/module/book_list/widgets/first_slide.dart';
+import 'package:flamelearning_ui_kit/module/book_list/widgets/second_slide.dart';
+import 'package:flamelearning_ui_kit/module/book_list/widgets/third_slide.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';

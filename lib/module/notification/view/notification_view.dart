@@ -1,8 +1,7 @@
-import 'package:codekaze_free_ui_kit/core.dart';
-import 'package:codekaze_free_ui_kit/module/notification/widget/notification_item.dart';
+import 'package:flamelearning_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/module/notification/widget/notification_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class NotificationView extends StatelessWidget {
   final controller = Get.put(NotificationController());

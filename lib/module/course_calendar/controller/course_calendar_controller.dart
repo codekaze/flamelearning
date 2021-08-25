@@ -1,4 +1,4 @@
-import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/core.dart';
 import 'package:get/get.dart';
 
 class CourseCalendarController extends GetxController {

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(codekaze_free_ui_kit LANGUAGES CXX)
+project(flamelearning_ui_kit LANGUAGES CXX)
 
-set(BINARY_NAME "codekaze_free_ui_kit")
+set(BINARY_NAME "flamelearning_ui_kit")
 
 cmake_policy(SET CMP0063 NEW)
 

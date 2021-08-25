@@ -1,4 +1,4 @@
-import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';

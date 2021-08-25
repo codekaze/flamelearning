@@ -1,4 +1,4 @@
-import 'package:codekaze_free_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/core.dart';
 import 'dart:io';
 
 import 'package:desktop_window/desktop_window.dart';

@@ -1,5 +1,5 @@
-import 'package:codekaze_free_ui_kit/core.dart';
-import 'package:codekaze_free_ui_kit/module/chat_detail/widget/chat_image.dart';
+import 'package:flamelearning_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/module/chat_detail/widget/chat_image.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';

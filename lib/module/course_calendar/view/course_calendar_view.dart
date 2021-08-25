@@ -1,7 +1,7 @@
-import 'package:codekaze_free_ui_kit/core.dart';
-import 'package:codekaze_free_ui_kit/module/course_calendar/widget/date_selector.dart';
+import 'package:flamelearning_ui_kit/core.dart';
+import 'package:flamelearning_ui_kit/module/course_calendar/widget/date_selector.dart';
 import 'package:flutter/material.dart';
-import 'package:codekaze_free_ui_kit/module/course_calendar/controller/course_calendar_controller.dart';
+import 'package:flamelearning_ui_kit/module/course_calendar/controller/course_calendar_controller.dart';
 
 import 'package:intl/intl.dart';
 
