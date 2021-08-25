@@ -99,45 +99,47 @@ class CourseCalendarView extends StatelessWidget {
                   ),
                 ),
               ),
-              DateSelector(
-                items: [
-                  {
-                    "course_name": "English",
-                    "sub_title": "Part 5 : Causative Verbs",
-                    "room_name": "Room A - 201",
-                    "start_time": "10.00",
-                    "end_time": "11:30",
-                    "author": {
-                      "name": "Bevelyn C.",
-                      "avatar_url":
-                          "https://images.unsplash.com/photo-1629316464107-ec2702d7e10c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+              Expanded(
+                child: DateSelector(
+                  items: [
+                    {
+                      "course_name": "English",
+                      "sub_title": "Part 5 : Causative Verbs",
+                      "room_name": "Room A - 201",
+                      "start_time": "10.00",
+                      "end_time": "11:30",
+                      "author": {
+                        "name": "Bevelyn C.",
+                        "avatar_url":
+                            "https://images.unsplash.com/photo-1629316464107-ec2702d7e10c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+                      },
                     },
-                  },
-                  {
-                    "course_name": "Science",
-                    "sub_title": "Part 6 : Human Genetics",
-                    "room_name": "Room B - 202",
-                    "start_time": "13:30",
-                    "end_time": "15:00",
-                    "author": {
-                      "name": "George Leonard",
-                      "avatar_url":
-                          "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                    {
+                      "course_name": "Science",
+                      "sub_title": "Part 6 : Human Genetics",
+                      "room_name": "Room B - 202",
+                      "start_time": "13:30",
+                      "end_time": "15:00",
+                      "author": {
+                        "name": "George Leonard",
+                        "avatar_url":
+                            "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                      },
                     },
-                  },
-                  {
-                    "course_name": "Social Studies",
-                    "sub_title": "Part 4 : World History",
-                    "room_name": "Room D - 301",
-                    "start_time": "15:30",
-                    "end_time": "16:30",
-                    "author": {
-                      "name": "Johan Bridge",
-                      "avatar_url":
-                          "https://images.unsplash.com/photo-1629473728190-c9a984fed794?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
-                    },
-                  }
-                ],
+                    {
+                      "course_name": "Social Studies",
+                      "sub_title": "Part 4 : World History",
+                      "room_name": "Room D - 301",
+                      "start_time": "15:30",
+                      "end_time": "16:30",
+                      "author": {
+                        "name": "Johan Bridge",
+                        "avatar_url":
+                            "https://images.unsplash.com/photo-1629473728190-c9a984fed794?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
+                      },
+                    }
+                  ],
+                ),
               ),
             ],
           ),

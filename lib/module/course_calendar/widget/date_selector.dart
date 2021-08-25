@@ -21,7 +21,6 @@ class _DateSelectorState extends State<DateSelector> {
     return Padding(
       padding: const EdgeInsets.only(top: 100),
       child: Container(
-        height: 504,
         width: 500,
         decoration: BoxDecoration(
           color: Colors.white,
