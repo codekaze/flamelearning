@@ -136,5 +136,7 @@ class ChatImage extends StatelessWidget {
           ],
         ),
       );
+
+    return Container();
   }
 }
