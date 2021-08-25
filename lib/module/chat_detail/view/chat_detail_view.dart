@@ -62,28 +62,32 @@ class ChatDetailView extends StatelessWidget {
                                     SizedBox(
                                       width: 12.0,
                                     ),
-                                    Container(
-                                      padding: EdgeInsets.all(16),
-                                      child: Column(
-                                        children: [
-                                          if (item["message"].isNotEmpty)
-                                            Container(
-                                              decoration: BoxDecoration(
-                                                borderRadius: BorderRadius.only(
-                                                  topLeft: Radius.circular(20),
-                                                  bottomRight:
-                                                      Radius.circular(20),
-                                                  topRight: Radius.circular(20),
+                                    Expanded(
+                                      child: Container(
+                                        padding: EdgeInsets.all(16),
+                                        child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
+                                            if (item["message"].isNotEmpty)
+                                              Container(
+                                                decoration: BoxDecoration(
+                                                  borderRadius: BorderRadius.only(
+                                                    topLeft: Radius.circular(20),
+                                                    bottomRight:
+                                                        Radius.circular(20),
+                                                    topRight: Radius.circular(20),
+                                                  ),
+                                                  color: Colors.grey[300],
                                                 ),
-                                                color: Colors.grey[300],
+                                                padding: EdgeInsets.all(16),
+                                                child: Text("${item["message"]}"),
                                               ),
-                                              child: Text("${item["message"]}"),
+                                            ChatImage(
+                                              images: item["images"],
+                                              isMe: item["is_me"],
                                             ),
-                                          ChatImage(
-                                            images: item["images"],
-                                            isMe: item["is_me"],
-                                          ),
-                                        ],
+                                          ],
+                                        ),
                                       ),
                                     ),
                                     SizedBox(
