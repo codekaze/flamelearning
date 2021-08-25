@@ -5,6 +5,8 @@ Android:\
 https://drive.google.com/file/d/1kPe3pi9Vmi3tDIxXy6fCp9dI53wrwot5/view?usp=sharing
 
 #### Screenshots
+ [![linkedin](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)](https://www.linkedin.com/in/codekaze-id-35541714b/)
+ 
 [![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)]
 
 #### Contributor:
