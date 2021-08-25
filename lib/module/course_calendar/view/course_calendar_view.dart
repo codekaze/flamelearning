@@ -20,7 +20,7 @@ class CourseCalendarView extends StatelessWidget {
           appBar: AppBar(
             title: Text("Course Calendar"),
           ),
-          body: Stack(
+          body: Column(
             children: [
               Container(
                 child: Padding(
